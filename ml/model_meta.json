@@ -1,0 +1,36 @@
+{
+  "feature_cols": [
+    "CPU_Usage (%)",
+    "Memory_Usage (%)",
+    "Battery_Level (%)",
+    "Network_Latency (ms)",
+    "Packet_Loss (%)",
+    "Temperature (°C)",
+    "Uptime (hrs)",
+    "Workload_Intensity",
+    "Error_Count"
+  ],
+  "failure_labels": {
+    "0": "Норма",
+    "1": "Сбой батареи",
+    "2": "Сбой CPU",
+    "3": "Сетевой сбой",
+    "4": "Перегрев"
+  },
+  "accuracy": 0.9933333333333333,
+  "macro_f1": 0.9933333333333334,
+  "cv_accuracy_mean": 0.9916666666666668,
+  "cv_accuracy_std": 0.0033333333333333327,
+  "n_classes": 5,
+  "feature_importances": {
+    "CPU_Usage (%)": 0.10793458670377731,
+    "Memory_Usage (%)": 0.026557551696896553,
+    "Battery_Level (%)": 0.17008380591869354,
+    "Network_Latency (ms)": 0.0907348021864891,
+    "Packet_Loss (%)": 0.24792338907718658,
+    "Temperature (°C)": 0.1276552826166153,
+    "Uptime (hrs)": 0.04257412999868393,
+    "Workload_Intensity": 0.03385710343718529,
+    "Error_Count": 0.15267938375473022
+  }
+}
